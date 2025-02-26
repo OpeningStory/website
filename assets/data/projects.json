@@ -1,0 +1,36 @@
+{
+  "projects":[
+    {
+      "year":"2024",
+      "name":"Eisen",
+      "category":"Web, Brand",
+      "type":"Freelance",
+      "image":"./assets/img/projects/slrncl-eisen2024.png",
+      "description":"Eisen is the first escheatment automation solution that proactively manages offboarding. I refreshed the visual identity and website as the company was re-inventing itself. Only the primitives of the previous identity were preserved. I developed a humble, light, and spacious new branding kit, ready to for scale and iterations.",
+      "link":"https://www.behance.net/gallery/208334351/Eisen-2024",
+      "linklabel":"Case study"
+    },
+    {
+      "year":"2024",
+      "name":"App&Flow",
+      "category":"Web, Brand",
+      "type":"Freelance",
+      "image":"./assets/img/projects/slrncl-appandflow2024.png",
+      "description":"Logo and brand refresh + full site redesign for the MTL app dev agency - App&Flow. A follow up collaboration where I was tasked to elevate the brand look and feel to compete with other agencies.",
+      "link":"https://appandflow.com/",
+      "linklabel":"Live site"
+    },
+    {
+      "year":"2024",
+      "name":"Daytona",
+      "category":"Web, Brand, Product",
+      "type":"Freelance",
+      "image":"./assets/img/projects/slrncl-daytonaio.png",
+      "description":"Early brand and product for work for Daytona, the enterprise-grade Codespaces alternative for managing self-hosted, secure and standardized dev environments.",
+      "link":"https://dribbble.com/SLRNCL/projects/7008631-Daytona-io",
+      "linklabel":"View project folder"
+    }
+  ]
+}
+
+
