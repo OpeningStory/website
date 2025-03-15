@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Brute | a minimal and aggressive css layout system to outrule unwieldy CSS frameworks</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	
+	<link rel="stylesheet" href="brute.css">
+	<link rel="stylesheet" href="boot.css">
+
+</head>
+
+<!-- BODY -->
+<body class="">
+
+	<header class="padded-section">
+		<div class="container-small">
+			<div class="row full-row-border-bottom">
+				<div class="col-50 dont-collapse small-margin-bottom">
+					<strong>Brute.css</strong>
+				</div>
+				<div class="col-50 dont-collapse text-align-right small-margin-bottom">
+					<span class="text-color-secondary text-small">~3kb / 0 shits given</span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="hero padded-section">
+    	<div class="container-small">
+    	  <div class="row">
+    	    <div class="col-100">
+    	      <h1 class="max-width-400">A tiny, opinionated, and aggressive css layout system to outrule unwieldy css framework overlords.</h1>
+    	      <div class="medium-margin-top">
+    	        <a href="brute.css" target="_blank" class="button primary regular">Download</a>
+    	        &nbsp;
+    	        <a href="https://github.com/nsolerieu/brute" class="text-small text-color-secondary">View repository</a>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row large-margin-top">
+    	  	<div class="col-50 dont-collapse">
+    	  		2 breakpoints<br>
+    	  		5 fluid column sizes<br>
+    	  		5 container sizes<br>
+    	  		Top/ bottom keylines<br>
+    	  	</div>
+    	  	<div class="col-50 dont-collapse">
+    	  		No responsive classes<br>
+    	  		No offsets<br>
+    	  		No alignment control<br>
+    	  		No ordering control<br>
+    	  	</div>
+    	  </div>
+    	</div>
+	</section>
+
+    <section class="padded-section">
+        <div class="container-small">
+          <div class="row full-row-border-top">
+            <div class="col-100">
+              <h2>Introduction</h2>
+              <p class="small-margin-top">
+                Brute doesn't like the current state of the web. It's too fluffy and political. Brute offers an opinionated and restrictive approach to layout. At the core it is a fuild CSS grid with 2 breakpoints and a few utility classes. It plays well with <code>boot.css</code> an anti design - design system designed by <a href="https://slrncl.com/">@slrncl</a> for his own projects.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+	<section>
+    	<div class="container">
+
+    	  <div class="row">
+    	    <div class="col-50 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-50</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-50 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-50</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-33 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-33</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-33 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-33</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-33 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-33</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-50 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-50</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-100 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-100</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-50 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-50</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-25 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-100 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-100</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-25 collapse-to-50 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-25.collapse-to-50</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-75 collapse-to-50 small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-75.collapse-to-50</p>
+    	      </div>
+    	    </div>
+    	  </div>
+    	  <div class="row">
+    	    <div class="col-50 dont-collapse small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-50.dont-collapse</p>
+    	      </div>
+    	    </div>
+    	    <div class="col-50 dont-collapse small-margin-top">
+    	      <div class="box small bg-secondary no-border">
+    	        <p class="text-small">.col-50.dont-collapse</p>
+    	      </div>
+    	    </div>
+    	  </div>
+
+    	</div>
+	</section>
+
+	<section class="padded-section">
+		<div class="container-small">
+			<div class="row">
+				<div class="col-100">
+					<h2>How it works</h2>
+					<p class="small-margin-top">
+					The class names reflect their width in % (col-50 = 50%). By default, all columns will collapse to 100% width on mobile (any screen under <code>840px</code> wide). 2 columns are possible on mobile by using the classes <code>.col-50.dont-collapse</code> and <code>col-25.collapse-to-50</code> <code>col-75.collapse-to-50</code>. If you don't want gutters/gaps use <code>.row.unpadded</code>. All elements inside a column are <code>width:100%</code> blocks unless nested within an inline element like a paragraph.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="padded-section">
+		<div class="container-small">
+			<div class="row">
+				<div class="col-100">
+					<h2>Usage</h2>
+
+<pre>
+&lt;section&gt;
+  &lt;div class="container-small"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-50"&gt;
+        &lt;img src="img/cool.png" class="fluid-img"&gt;
+      &lt;/div&gt;
+      &lt;div class="col-50"&gt;
+        &lt;h2&gt;Layout&lt;/h2&gt;
+        &lt;p&gt;
+          Descriptions, when well written, are so lovely
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/section&gt;
+</pre>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="padded-section">
+		<div class="container-small">
+			<div class="row">
+				<div class="col-100">
+					<h2>Containers</h2>
+					<p class="small-margin-top">
+					Brute comes with 3 container presets. You can also flex flull width, that goes without saying. The idea is to suggest a set to stick to and avoid inconsistencies while covering most editorial needs.
+					</p>
+				</div>
+			</div>
+		</div>
+
+        <div class="medium-margin-top">
+            <div class="box small bg-secondary no-border small-margin-top">
+                <p class="text-small">Full width (no-container)</p>
+            </div>
+        </div>
+		<div class="container-large small-margin-top">
+            <div class="row">
+    			<div class="col-100">
+    				<div class="box small bg-secondary no-border">
+    					<p class="text-small">.container-large (1248px)</p>
+    				</div>
+    			</div>
+            </div>
+		</div>
+		<div class="container small-margin-top">
+            <div class="row">
+    			<div class="col-100">
+    				<div class="box small bg-secondary no-border">
+    					<p class="text-small">.container (960px)</p>
+    				</div>
+    			</div>
+            </div>
+		</div>
+		<div class="container-small small-margin-top">
+            <div class="row">
+    			<div class="col-100">
+    				<div class="box small bg-secondary no-border">
+    					<p class="text-small">.container-small (620px) <span class="text-color-secondary">*most popular</span></p>
+    				</div>
+    			</div>
+            </div>
+		</div>
+	</section>
+
+
+    <section class="padded-section">
+        <div class="container-small">
+            <div class="row">
+                <div class="col-100">
+                    <h2>Keylines</h2>
+                    <p class="small-margin-top">
+                    Keylines or borders are great. They create subtle separation between sections. Brute allows only top and bottom on both columns and rows.
+                    </p>
+                </div>
+            </div>
+            <div class="row full-row-border-top medium-margin-top">
+                <div class="col-100">
+                    <p class="text-small">.full-row-border-top</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50 full-col-border-top small-margin-top">
+                    <p class="text-small">.full-col-border-top</p>
+                </div>
+                <div class="col-50 full-col-border-top small-margin-top">
+                    <p class="text-small">.full-col-border-top</p>
+                </div>
+            </div>
+            <div class="row full-row-border-bottom medium-margin-top">
+                <div class="col-100">
+                    <p class="text-small">.full-row-border-bottom</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-50 full-col-border-bottom small-margin-top">
+                    <p class="text-small">.full-col-border-bottom</p>
+                </div>
+                <div class="col-50 full-col-border-bottom small-margin-top">
+                    <p class="text-small">.full-col-border-bottom</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="padded-section">
+        <div class="container-small">
+            <div class="row">
+                <div class="col-100">
+                    <h2>Why?</h2>
+                    <p class="small-margin-top">
+                    Because there's too many over engineered CSS frameworks. Brute covers 75% of your web design needs. It is the distillation of 10 years building websites that led to this <i>savant mélange</i> of CSS. Restraint and ignorance are keys to understand the brute.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+
+	<footer class="padded-section">
+		<div class="container-small">
+            <div class="row full-row-border-top">
+                <div class="col-100">
+                    <p class="text-small text-color-secondary small-margin-top">Brute • by <a href="https://slrncl.com/">@slrncl</a></p>
+                </div>
+            </div>
+		</div>
+	</footer>
+
+</div>
+
+</body>
